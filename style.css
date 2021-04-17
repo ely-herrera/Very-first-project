@@ -11,10 +11,10 @@ header {
 
 .main-title {
   font-family: TimeBurner, Raleway, Calendas Plus;
-  font-size: 130px;
+  font-size: 100px;
   text-align: center;
   color: Black;
-  padding: 40px 0 0 0;
+  padding: 40px;
 }
 
 header, h2, h3 {

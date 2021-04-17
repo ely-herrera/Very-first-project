@@ -2,16 +2,16 @@ body {
   font-family: Helvetica, "Times New Roman", Arial;
   color: #C0C0C0;
   background-color: #008080;
-  text-align: center;
 }
 
 h1, h2, h3 {
- color: #808080;
+ color: #DCDCDC;
+ text-align: center;
 }
 
 hr {
  border-width: 5px;
- border-color: #C0C0C0	
+ border-color: #000000;
 }
 
 a {
@@ -26,4 +26,15 @@ a:hover {
 a:visited {
  color: #DAA520	
 }
+
+header {
+  height: 150px;
+  background-color: #2F4F4F
+}
+
+footer {
+  background-color: #2F4F4F
+}
+
+
 

@@ -4,8 +4,8 @@ body {
   background-color: #008080;
 }
 
-h1, h2, h3, p, li {
- color: #DCDCDC;
+h1, h2, h3 {
+ color: #F5F5F5;
  text-align: center;
 }
 
@@ -36,5 +36,22 @@ footer {
   background-color: #2F4F4F
 }
 
+article {
+  padding: 0 25%;
+  margin: 80px 0;
+}
 
+footer p {
+  color: #C0C0C0;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+img {
+  width: 50%;
+  border-radius: 5px;
+  border: 2px solid #000000;
+}
+  
 

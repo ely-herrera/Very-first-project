@@ -33,7 +33,7 @@ article {
 }
 
 h1 h2 h3 {
-	font-family: Merriweather, Spectral;
+	font-family: 'arial black', Spectral;
 	font-style: bold;
 	color: #A9A9A9;
 	text-align: center;
@@ -42,14 +42,14 @@ h1 h2 h3 {
 }
 
 p {
- font-family: Spectral, Merriweather;
+ font-family: Arial, Merriweather;
  line-height: 1.5em;
  margin-bottom: 0;
  color: #C0C0C0	
 }
 
 li {
- font-family: Spectral, Merriweather;
+ font-family: arial, Merriweather;
  line-height: 1.5em;
  margin-bottom: 0;
  color: #C0C0C0		

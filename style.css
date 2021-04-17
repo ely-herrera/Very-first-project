@@ -2,6 +2,7 @@ body {
   font-family: Helvetica, "Times New Roman", Arial;
   color: #C0C0C0;
   background-color: #008080;
+  text-align: center;
 }
 
 h1, h2, h3 {
@@ -9,8 +10,8 @@ h1, h2, h3 {
 }
 
 hr {
- border-width: 10px;
- border-color: #000000	
+ border-width: 5px;
+ border-color: #C0C0C0	
 }
 
 a {

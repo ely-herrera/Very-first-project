@@ -4,14 +4,14 @@ body {
   background-color: #008080;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p, li {
  color: #DCDCDC;
  text-align: center;
 }
 
 hr {
  border-width: 5px;
- border-color: #000000;
+ background-color: #000000;
 }
 
 a {
@@ -36,8 +36,5 @@ footer {
   background-color: #2F4F4F
 }
 
-li {
-  text-align: center;
-}
 
 

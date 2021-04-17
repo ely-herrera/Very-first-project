@@ -4,14 +4,15 @@ body {
   margin: 0;
  }
 
+hr {
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+
 header {
   height: 250px;
   Background-color: #2F4F4F;
-  font-family: nexa, Raleway;
-  color: #C0C0C0;
   margin: 0px;
-  font-size: 35px;
-  text-align: center;
  }
 
 footer {

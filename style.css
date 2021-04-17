@@ -1,48 +1,39 @@
 body {
   font-family: Helvetica, "Times New Roman", Arial;
-  color: white;
-  background-color: gray;
+  color: #C0C0C0;
+  background-color: #008080;
 }
-
 h1, h2, h3 {
- color: White;
+ color: #F5F5F5;
  text-align: center;
 }
-
 hr {
  border-width: 5px;
- background-color: White;
+ background-color: #000000;
 }
-
 a {
- color: Blue;
+ color: #0000FF;
 }
-
 a:hover {
- color: Violet;	
+ color: #A52A2A;	
  text-decoration: underline;
 }
-
 a:visited {
- color: yellow;	
+ color: #DAA520	
 }
-
 header {
   height: 150px;
-  background-color: Black;
+  background-color: #2F4F4F
 }
-
 footer {
-  background-color: black;
+  background-color: #2F4F4F
 }
-
 article {
   padding: 0 25%;
   margin: 80px 0;
 }
-
 footer p {
-  color: white;
+  color: #C0C0C0;
   text-align: center;
   padding: 30px;
   margin: 0;
@@ -51,7 +42,7 @@ footer p {
 img {
   width: 50%;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 2px solid #000000;
 }
   
 

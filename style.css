@@ -35,20 +35,11 @@ article {
   margin: 80px 0;
 }
 
-
-
-
-h1, h2, h3 {
-  font-family: Nexa, Raleway;
-	color: #A9A9A9;
-  text-align: center;
-}
-
 h1 { font-size: 100px; }
 h2 { font-size: 40px; }
 h3 { font-size: 35px; }
 
-p, li {
+p {
  font-family: Spectral, Merriweather;
  line-height: 1.5em;
  margin-bottom: 0;
@@ -69,11 +60,11 @@ p, li {
 
 }
 
-footer, p {
-	color: #DCDCDC;	
-	text-align: center;
-  	padding: 45px;
- 	 margin: 0;
+ p {
+   color: #DCDCDC;	
+   text-align: center;
+   padding: 45px;
+   margin: 0;
 }
 
 /* -------  image style ------- */
@@ -85,9 +76,4 @@ img {
 } 
 
 /* -------   ------- */
-
-.border-top {
-  padding-top: 80px;
-  border-top: 2px solid #2F4F4F;
-}
 

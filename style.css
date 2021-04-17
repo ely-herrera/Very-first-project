@@ -1,11 +1,11 @@
 body {
   font-family: Merriweather, Arial;
   background-image:url(./images/simple-blue-background.jpg);
-  margin: 0px;
+  margin: 0;
  }
 
 header {
-  height: 600px;
+  height: 200px;
   Background-color: #2F4F4F
  }
 
@@ -13,7 +13,7 @@ header {
   font-family: TimeBurner, Raleway, Calendas Plus;
   font-size: 100px;
   text-align: center;
-  color: Black;
+  color: #808080;
   padding: 40px;
 }
 
@@ -44,7 +44,7 @@ h1, h2, h3 {
   text-align: center;
 }
 
-h1 { font-size: 45px; }
+h1 { font-size: 100px; }
 h2 { font-size: 40px; }
 h3 { font-size: 35px; }
 

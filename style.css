@@ -41,12 +41,9 @@ footer p {
 
 img {
   width: 100%;
+  position: center;
   border-radius: 5px;
   border: 2px solid #000000;
-}
-
-p {
- font-size: 50px
 }
   
 .logo {

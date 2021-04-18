@@ -1,3 +1,5 @@
+/*------elements-------*/
+
 body {
   font-family: Helvetica, "Times New Roman", Arial;
   color: #C0C0C0;
@@ -18,6 +20,9 @@ hr {
  border-width: 5px;
  background-color: #000000;
 }
+
+/*-----Styled Links-----*/
+
 a {
  color: #0000FF;
 }
@@ -28,6 +33,8 @@ a:hover {
 a:visited {
  color: #DAA520	
 }
+
+/*-----------Container Styles------------*/
 header {
   height: 250px;
   background-color: #2F4F4F
@@ -46,6 +53,7 @@ footer p {
   margin: 0;
   font-size: 35px;
 }
+/*-----Image Style------*/
 
 img {
    border-radius: 50%;
@@ -55,7 +63,7 @@ img {
    margin-right: auto;
    width: 50%;
 }
-  
+ /*------class syntax-----*/ 
 .logo {
   font-family: Raleway, cursive;
   font-size: 80px;

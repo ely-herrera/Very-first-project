@@ -2,8 +2,8 @@
 
 body {
   font-family: Helvetica, "Times New Roman", Arial;
-  color: #000000;
-  background-color: #008080;
+  color: #F5F5F5;
+  background-color: #000080;
 }
 
 h1, h2, h3 {
@@ -24,7 +24,7 @@ hr {
 /*-----Styled Links-----*/
 
 a {
- color: #000000;
+ color: #F5F5F5;
 }
 a:hover {
  color: #A52A2A;	
@@ -47,7 +47,7 @@ article {
   margin: 80px 0;
 }
 footer p {
-  color: #000000;
+  color: #F5F5F5;
   text-align: center;
   padding: 30px;
   margin: 0;

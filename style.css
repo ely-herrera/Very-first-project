@@ -37,10 +37,10 @@ a:visited {
 /*-----------Container Styles------------*/
 header {
   height: 250px;
-  background-color: #2F4F4F
+  background-color: #191970;	
 }
 footer {
-  background-color: #2F4F4F
+  background-color: #191970;
 }
 article {
   padding: 0 25%;

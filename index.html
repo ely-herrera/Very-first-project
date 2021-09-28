@@ -1,71 +1,227 @@
-<!DOCTYPE html>
-<html lang='en'>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Ely Herrera - First Portfolio</title>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website | Code4education </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
 <body>
-  <!--HEADER/TOP OF PAGE-->
-  <header>
-    <h1 class="logo">Ely Herrera</h1>
-    <h2>Aspiring Software Engineer</h2>
-  </header>
-  <!--Main section/Into-->
-  <main>
-    <article>
-	    <img src="./images/ely-profile.jpg" alt="Ely Herrera - Profile Photo">	    
-      <h3 class="padding-top">Introduction</h3>
-        <p> Hi there! My name is Ely Herrera, and I am just about to enroll in a Bootcamp for Software Engineering.</p>
-        <p>Before making this decision, I recently became a Certified Personal Trainer and I come from a background in customer service and human resources.</p>
-        <p>Growing up in El Paso, Texas I always loved the state but moved to Phoenix, Arizona for college. However, I have found my way back to Texas when I moved to Dallas earlier this year.
-	    </p>
-        
-    </article>
-    	<hr>
-   <!--About Me Section-->	  
-    <article>
-      <h3>About Me</h3>
-        <p>My journey up to this point in my life has not gone the way I initially expected. My original plan for life after high school went a little like this: </p>
+
+  <!-- Move to up bottom -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  
+  <!-- navigation menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">EH</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/ely-herrera/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/ely-herrera"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Ely Herrera</div>
+        <div class="text-three">Full-Stack Developer</div>
+        <div class="text-four">From Dallas, Texas</div>
+      </div>
+      <div class="button">
+        <button>Get to Know Me</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="images/ely-profile.jpg" alt="Portfolio">
+        </div>
+        <div class="right">
+          <div class="topic">Discovering my Passion</div>
+          <p>My journey up to this point in my life has not gone the way I initially expected. My original plan for life after high school went a little like this: </p>
           <ol>
             <li>Go straight to college.</li>
             <li>Pick a major that sounds good where I could be successful coming out of College.</li>
             <li>Graduate and begin my career</li>
           </ol>
         <p>As I mentioned earlier, it did not turn out how I had planned.  Unfortunately, I ended up dropping out of college and it all resulted from not having a plan and consistently asking myself what I wanted to do for a career. Through my experience and just stumbling my way through life, I finally had an honest conversation with myself about what I wanted to do.</p>
-        <p>After taking some time and doing research, I found myself interested in the tech space, particularly in Software Engineering. I found that Bootcamps were becoming a viable option to enter the field and here I am now creating my first webpage through the <a href="https://www.thinkful.com/">Thinkful</a> Program!</p>
+        <p>After taking some time and doing research, I found myself interested in the tech space, particularly in Software Engineering. I found that Bootcamps were becoming a viable option to enter the field and here I am now created my portofoli webpage and completed the <a href="https://www.thinkful.com/">Thinkful</a> Program learing Full-Stack development!</p>
         <p>Many reasons piqued my interest in the field but the main ones are the following:</p>
           <ul>
             <li>Leveraging technology to create projects to ultimately help other people in some way or another.</li>
             <li>Working with others to create these types of projects excites me!</li>
             <li>Constantly educating yourself to help you excel in your career.</li>
           </ul>
-        <p>One of my interests outside of Software Development is fitness. I mentioned earlier that I had become a Certified Personal Trainer at the beginning of this year. Fitness has always been a constant in my life and I always loved sharing knowledge and helping others live healthier lives in any way, whether it be through nutrition or their movement.</p>
+        <p>One of my interests outside of Software Development is fitness. I had become a Certified Personal Trainer towards the end of 2020 to explore building a career in that field. Fitness has always been a constant in my life and I always loved sharing knowledge and helping others live healthier lives in any way, whether it be through nutrition or their movement.</p>
     </article>
-    	<hr>
-    <!--Contact Information-->
-    <article>
-      <h3>Contact</h3>
-        <p> I want to thank you for visiting my website and feel free to contact me if you'd like! </p>
-          <ul>
-            <li><a href="https://www.linkedin.com/in/ely-herrera-3b0aa0162/">LinkedIn</a></li>
-            <li><a href="https://github.com/ely-herrera">GitHub</a></li>
-          </ul>
-    </article>
-  </main>
-  
+          <div class="button">
+            <button>Download Resume</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Current Tech Stack</div>
+          <p>The majority of my skills I have were built thus far was through my experience with Thinkful becoming proficient with ES6 JavaScript, React, HTML/CSS, Bootstrap, Node.js, Express, and PostgreSQL. I am exciting to continue building my skills and learn more technologies.</p>
+        </div>
+        
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">JavaScript</div>
+          </div>
+          <div class="box">
+            <div class="topic">React</div>
+          </div>
+          <div class="box">
+            <div class="topic">Node.js</div>
+          </div>
+          <div class="box">
+            <div class="topic">Express</div>
+          </div>
+          <div class="box">
+            <div class="topic">PostgreSQL</div>
+          </div>
+          <div class="box">
+            <div class="topic">HTML</div>
+          </div>
+          <div class="box">
+            <div class="topic">CSS</div>
+          </div>
+          <div class="box">
+            <div class="topic">Bootstrap</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Projects Section Start -->
+  <section class="projects" id="projects">
+    <div class="content">
+      <div class="title"><span>My Projects</span></div>
+      <div class="boxes">
+        <!-- Pomodoro timer Project -->
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <div class="topic">Pomodoro Timer</div>
+          <article class="row">
+          <p>Designed and created a timer application that features duration-setting for user productivity and breaks.</p>
+          <small class="text-muted">Tech: React, HTML, CSS</small>
+          <a href="https://pomodoro-timer-kd19q1xps-ely-herrera.vercel.app/" class="btn btn-link btn-sm active pt-2" role="button" aria-pressed="true">View Deployed App</a>
+          <a href="https://github.com/ely-herrera/Pomodoro-Timer" class="btn btn-link btn-sm active" role="button" aria-pressed="true">Github Repository</a>
+          </article>
+        </div>
+        <!-- Decoder Ring -->
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-puzzle-piece"></i>
+          </div>
+          <div class="topic">Decoder Ring</div>
+          <article class="row">
+            <p>Implemented an algorithm with specific steps that enable users to encode and decode messages. Designed with a Test-Driven Development approach using Mocha and Chai to test algorithms 
+              </p>
+            <small class="text-muted">Tech: JavaScript, HTML, CSS</small>
+            <a href="https://pomodoro-timer-kd19q1xps-ely-herrera.vercel.app/" class="btn btn-link btn-sm active pt-2" role="button" aria-pressed="true">View Deployed App</a>
+            <a href="https://github.com/ely-herrera/Pomodoro-Timer" class="btn btn-link btn-sm active" role="button" aria-pressed="true">Github Repository</a>
+            </article>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="topic">Digital Marketing</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fab fa-wordpress"></i>
+          </div>
+          <div class="topic">WordPress Design</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-quidditch"></i>
+          </div>
+          <div class="topic">UI/UX Design</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <div class="topic">Apps Development</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me Section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic">Have Any Projects?</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+        <div class="button">
+          <button>Let's Chat</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
   <footer>
-    <p>&copy; Ely Herrera</p>
+    <div class="text">
+      <span>Created By <a href="#">Code4education</a> | © 2021 All Rights Reserved.</span>
+    </div>
   </footer>
-  
+
+   
+
   <script src="script.js"></script>
-  
- </body>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
 </html>
 
-      
- 
+

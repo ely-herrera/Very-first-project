@@ -1,15 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap');
+
+/* Variables */
+:root {
+  --font-family: 'Roboto', sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #fcfcfc;
+  --primary-color: #4756df;
+  --secondary-color: #ff7235;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+body {
+  font-family: var(--font-family);
+}
+
 /*------elements-------*/
 
 body {
-  font-family: Helvetica, "Times New Roman", Arial;
-  color: #F5F5F5;
-  background-color: #00008B;
+  font-family: Helvetica, 'Times New Roman', Arial;
+  color: #f5f5f5;
+  background-color: #00008b;
 }
 
-h1, h2, h3 {
- font-size: 45px;
- color: #F5F5F5;
- text-align: center;
+h1,
+h2,
+h3 {
+  font-size: 45px;
+  color: #f5f5f5;
+  text-align: center;
 }
 
 .padding-top {
@@ -17,27 +67,27 @@ h1, h2, h3 {
 }
 
 hr {
- border-width: 5px;
- background-color: #000000;
+  border-width: 5px;
+  background-color: #000000;
 }
 
 /*-----Styled Links-----*/
 
 a {
- color: #F5F5F5;
+  color: #f5f5f5;
 }
 a:hover {
- color: #A52A2A;	
- text-decoration: underline;
+  color: #a52a2a;
+  text-decoration: underline;
 }
 a:visited {
- color: #DAA520	
+  color: #daa520;
 }
 
 /*-----------Container Styles------------*/
 header {
   height: 250px;
-  background-color: #191970;	
+  background-color: #191970;
 }
 footer {
   background-color: #191970;
@@ -47,7 +97,7 @@ article {
   margin: 80px 0;
 }
 footer p {
-  color: #F5F5F5;
+  color: #f5f5f5;
   text-align: center;
   padding: 30px;
   margin: 0;
@@ -56,18 +106,18 @@ footer p {
 /*-----Image Style------*/
 
 img {
-   border-radius: 50%;
-   border: 2px solid #000000;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
- /*------class syntax-----*/ 
+/*------class syntax-----*/
 .logo {
   font-family: Raleway, cursive;
   font-size: 80px;
-  color: #F5F5F5;
+  color: #f5f5f5;
   text-align: center;
   letter-spacing: -3;
   margin: 0;

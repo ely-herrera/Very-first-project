@@ -2,13 +2,13 @@
 
 /* Variables */
 :root {
-  --font-family: 'Roboto', sans-serf;
+  --font-family: Raleway, sans-serf;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
+  --primary-color: #008080;
+  --secondary-color: #ff934f;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
@@ -31,6 +31,12 @@ html {
 
 ul {
   list-style-type: none;
+}
+
+ul,
+ol {
+  margin-left: 4rem;
+  padding: 0.75rem;
 }
 
 a {
@@ -79,6 +85,10 @@ nav ul {
 
 nav ul li {
   font-weight: var(--bold-font);
+}
+
+.list-item {
+  list-style-type: square;
 }
 
 .burger-menu {
@@ -210,6 +220,11 @@ nav ul li {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+}
+
+.text-muted {
+  opacity: 0.5;
+  font-style: italic;
 }
 
 .contact {
